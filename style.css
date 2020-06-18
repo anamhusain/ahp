@@ -1,0 +1,490 @@
+/*------
+font-family: 'Caveat', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+/* ------- Body ----------------------------------------------------------------- */
+
+body{
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  font-family: 'Marcellus SC', serif;
+  background-color: #222831 !important;
+}
+
+/* ------- Html ------------------------------------------------------------------ */
+
+html{
+  overflow-x: hidden;
+}
+
+/* ------- Navigation Bar ------------------------------------------------------------------ */
+
+.navbar{
+  background-color: #222831 !important;
+}
+
+.navbar-brand{
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: #32e0c4 !important;
+  font-family: 'Caveat', cursive;
+}
+
+nav li{
+  margin: 0 1.2rem;
+  font-size: 1.2rem;
+}
+
+/* ------- Horizontal Ruler ------------------------------------------------------- */
+
+.horizontalRuler{
+  width: 5rem;
+  height: .2rem;
+  background-color: #32e0c4;
+  margin: 0 auto 3rem;
+}
+
+/* ------- Home Section ------------------------------------------------------------------ */
+
+#home{
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("img/5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 17rem 2rem;
+}
+
+#home h1{
+  color : white;
+}
+
+#home h2{
+  color : white;
+}
+
+/* ------- About Section ------------------------------------------------------------------ */
+
+#about{
+  height: 100%;
+  width: 100%;
+  padding: 8rem 2rem;
+  background-color: #222831;
+}
+
+#about header{
+  color: #fdcb9e;
+}
+
+#about p{
+  font-size: 1.2rem;
+  text-align: justify;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* -------Section A ------------------------------------------------------------------ */
+
+#sectA{
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("img/8.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 11rem 2rem;
+}
+
+/* -------Section 1 ------------------------------------------------------------------ */
+
+#sect1 {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 3.5rem;
+  font-family: 'Marcellus SC', serif;
+  text-align: justify;
+  background-color: #024249;
+}
+
+#sect1 h4{
+  color: #fff3cd;
+  font-size: 1.5rem;
+}
+
+#sect1 p{
+  color: black;
+}
+
+/* -------Section 2 ------------------------------------------------------------------ */
+
+#sect2{
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("img/1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 11rem 2rem;
+}
+
+/* -------Section 3 ------------------------------------------------------------------ */
+
+#sect3 {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 3.5rem;
+  font-family: 'Marcellus SC', serif;
+  text-align: justify;
+  background-color: #024249;
+}
+
+#sect3 h4{
+  color: #fff3cd;
+  font-size: 1.5rem;
+}
+
+#sect3 p{
+  color: black;
+}
+
+/* -------Section 4 ------------------------------------------------------------------ */
+
+#sect4{
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("img/3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 11rem 2rem;
+}
+
+/* -------Section 5 ------------------------------------------------------------------ */
+
+#sect5 {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 3.5rem;
+  font-family: 'Marcellus SC', serif;
+  text-align: justify;
+  background-color: #024249;
+}
+
+#sect5 h4{
+  color: #fff3cd;
+  font-size: 1.5rem;
+}
+
+#sect5 p{
+  color: black;
+}
+
+/* -------Section 6 ------------------------------------------------------------------ */
+
+#sect6{
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("img/2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 11rem 2rem;
+}
+
+/* -------Section 7 ------------------------------------------------------------------ */
+
+#sect7 {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 3.5rem;
+  font-family: 'Marcellus SC', serif;
+  text-align: justify;
+  background-color: #024249;
+}
+
+#sect7 h4{
+  color: #fff3cd;
+  font-size: 1.5rem;
+}
+
+#sect7 p{
+  color: black;
+}
+
+/* ------- Photography Section ------------------------------------------------------------------ */
+
+#photos{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/7.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 6rem 2rem;
+}
+
+#photos h1{
+  color: #fff3cd;
+}
+
+.img-fluid{
+  border: 2.5px solid white;
+  margin-bottom: 2rem;
+}
+
+/* -------Section 8 ------------------------------------------------------------------ */
+
+#sect8 {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 3.5rem;
+  font-family: 'Marcellus SC', serif;
+  text-align: justify;
+  background-color: #024249;
+}
+
+#sect8 h4{
+  color: #fff3cd;
+  font-size: 1.5rem;
+}
+
+#sect8 p{
+  color: black;
+}
+
+/* ------- Location Section ------------------------------------------------------------------ */
+
+#location{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 9rem 2rem;
+}
+
+#location h1{
+  color: white;
+}
+
+#location h3{
+  font-family: 'PT Sans Narrow', sans-serif;
+  color : #32e0c4;
+  margin-top: 2.5rem;
+}
+
+#location p{
+  color: white;
+  text-align: justify;
+}
+
+#location .img-fluid{
+  margin-top: 3rem;
+}
+
+/* -------Section 9 ------------------------------------------------------------------ */
+
+#sect9 {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 3.5rem;
+  font-family: 'Marcellus SC', serif;
+  text-align: justify;
+  background-color: #024249;
+}
+
+#sect9 h4{
+  color: #fff3cd;
+  font-size: 1.5rem;
+}
+
+#sect9 p{
+  color: black;
+}
+
+/* ------- Designer Section -------------------------------------------------------- */
+
+#designer{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/9.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 5rem 1rem;
+  margin-bottom: 6px;
+}
+
+.content img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2.5px solid #dbdbdb;
+  margin-bottom: 17px;
+}
+
+.content h1{
+  color: #f0f0f0;
+}
+
+#designer .web{
+  color: grey;
+}
+
+#designer a{
+  text-decoration: none;
+  color: #32e0c4;
+}
+
+#designer a:hover{
+  color: white;
+}
+
+.click{
+  color: #32e0c4;
+}
+
+/* ------- Footer -------------------------------------------------------- */
+
+#footer footer{
+  padding:2rem 0 2rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: 400;
+  background-color:#222831 !important;
+}
+
+.txt{
+    font-family: 'Caveat', cursive;
+    color: #32e0c4;
+    font-size: 2rem;
+}
+
+.socket{
+  width: 100%;
+  border-top: .2rem solid #32e0c4;
+  margin-top: 1rem;
+}
+
+.weight{
+  font-weight: normal;
+  font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------- Media Queries -------------------------------------------------------- */
+
+@media screen and (max-width : 768px){
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+
+  #home h1{
+    font-size: 1.5rem;
+  }
+
+  #home h2{
+    font-size: 1.2rem;
+  }
+
+  #about h1{
+    font-size: 1.5rem;
+  }
+
+  #about p{
+    font-size: 1.1rem
+  }
+
+  #sect1 h4{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  #sect1 p{
+    font-size: 1.1rem;
+  }
+
+  #sect3 h4{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  #sect3 p{
+    font-size: 1.1rem;
+  }
+
+  #sect5 h4{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  #sect5 p{
+    font-size: 1.1rem;
+  }
+
+  #sect7 h4{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  #sect7 p{
+    font-size: 1.1rem;
+  }
+
+  #photos h1{
+    font-size: 1.5rem;
+  }
+
+  #sect8 h4{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  #sect8 p{
+    font-size: 1.1rem;
+  }
+
+  #location h1{
+    font-size: 1.5rem;
+  }
+
+  #location h3{
+    font-size: 1.2rem;
+  }
+
+  #location p{
+    font-size: 1rem;
+  }
+
+  #sect9 h4{
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  #sect9 p{
+    font-size: 1.1rem;
+  }
+
+  #designer h1{
+    font-size: 1.5rem;
+  }
+
+  .txt{
+    font-size: 1.4rem;
+  }
+}
